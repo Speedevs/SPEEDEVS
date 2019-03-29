@@ -1,0 +1,209 @@
+
+ro.opengles.version=131072
+
+wifi.direct.interface=p2p0
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+
+# USB MTP WHQL
+ro.sys.usb.mtp.whql.enable=0
+
+# Power off opt in IPO
+sys.ipo.pwrdncap=2
+
+# Switching Menu of Mass storage and MTP
+ro.sys.usb.storage.type=mtp,mass_storage
+
+# USB BICR function
+ro.sys.usb.bicr=no
+
+# USB Charge only function
+ro.sys.usb.charging.only=yes
+
+# audio
+ro.camera.sound.forced=0
+ro.audio.silent=0
+
+ro.zygote.preload.enable=0
+
+#GMS
+ro.com.google.clientidbase = android-wiko
+
+#
+# ADDITIONAL_BUILD_PROPERTIES
+#
+persist.gemini.sim_num=2
+ro.gemini.smart_sim_switch=false
+ro.gemini.smart_3g_switch=1
+ril.specific.sm_cause=0
+bgw.current3gband=0
+ril.external.md=0
+ro.btstack=blueangel
+ro.sf.hwrotation=0
+ril.current.share_modem=2
+launcherplus.allappsgrid=2d
+curlockscreen=1
+ro.mediatek.gemini_support=true
+persist.radio.fd.counter=15
+persist.radio.fd.off.counter=5
+persist.radio.fd.r8.counter=15
+persist.radio.fd.off.r8.counter=5
+drm.service.enabled=true
+fmradio.driver.enable=1
+ril.first.md=1
+ril.flightmode.poweroffMD=1
+ril.telephony.mode=0
+dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
+persist.mtk.anr.mechanism=1
+mediatek.wlan.chip=CONSYS_MT6582
+mediatek.wlan.module.postfix=_consys_mt6582
+ril.radiooff.poweroffMD=0
+persist.mtk.wcn.combo.chipid=-1
+ro.fota.oem=MTK_KK
+ro.fota.platform=MTK_KK
+ro.fota.type=phone
+ter.service.enable=0
+mediatek.extmd.usbport=0
+ro.lte.dc.support=0
+ril.active.md=0
+ro.setupwizard.mode=OPTIONAL
+ro.com.google.gmsversion=4.4_r4
+ro.config.ringtone=Start.ogg
+ro.config.notification_sound=Tambourine.ogg
+ro.config.alarm_alert=Morning.ogg
+ro.config.ringtone_sim2=Dazzle.ogg
+persist.sys.timezone=Asia/Kolkata
+persist.sys.dalvik.vm.lib=libdvm.so
+net.bt.name=Android
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+
+# begin GMT FOTA properties
+ro.gmt.fota.brand=Micromax
+ro.gmt.fota.model=Micromax A104
+ro.gmt.fota.version=S5501BP_MP_MMX_IN_10
+# end GMT FOTA properties
+
+# MysticOS Extra Build Properties
+
+fw.max_users=3
+qemu.hw.mainkeys=1
+persist.sys.use_16bpp_alpha=1
+ro.ril.disable.power.collapse=0
+debug.performance.tuning=1
+debug.egl.profile=1
+debug.egl.hw=1
+
+# Data Speed Tweaks
+ro.ril.enable.3g.prefix=1
+ro.ril.hep=1
+ro.ril.hxpa=5
+ro.ril.enable.dtm=1
+ro.ril.gprsclass=12
+ro.ril.hsdpa.category=28
+ro.ril.a53=1
+ro.ril.hsupa.category=9
+ro.ril.def.agps.feature=1
+
+# buffer tweaks
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.hsdpa=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,16384,25696
+
+# Google DNS
+net.dns1=8.8.8.8
+net.dns2=8.8.4.4
+net.rmnet0.dns1=8.8.8.8
+net.rmnet0.dns2=8.8.4.4
+
+# Power save battery
+save_battery_system=70%
+save_battery_usage=50%
+power_saving_system_battery_saver=50%
+power_battery_system_save_usage=50%
+power_saving_battery_saver=2x
+power_saving_battery_system=2x
+
+# Enable system setting
+save_battery=90%
+ram_free=80%
+boost_system_ram=50%
+boost_internet_system=10x
+Faster_internet_system=10x
+Faster_battery_charger=2x
+Faster_internet_system_3g=2x
+system_smooth_lcd=80%
+Faster_system_multitasking=2x
+power_saving_battery_system=50%
+kill_app_system=50%
+enable_kill_ads_system=50%
+Boost_cpu=90%
+Use_cpu_boost=60%
+Use_gpu_boost=50%
+Lock_ram_memory_free=50%
+Free_system_ram_usage_running=90%
+
+debug.sf.hw=1
+
+ro.HOME_APP_ADJ=1
+
+video.accelerate.hw=1
+
+persist.sys.use_dithering=1
+
+ro.config.low_ram=false
+persist.sys.scrollingcache=4
+ro.build.target_country
+ro.build.target_operator
+
+‪#‎Random‬ pm.sleep_mode=1 ro.telephony.call_ring.delay=0 windowsmgr.max_events_per_sec=200 windowsmgr.support_rotation_270=true persist.adb.notify=0
+
+‪#‎GPS‬ Tweaks
+# ro.ril.gprsclass : inidcates GPRS class of target network : 
+# Class 12 : 5 slots : 32 - 48 kbps upload / 32 - 48 kbps download 
+ro.ril.gprsclass=12
+
+‪#‎ro‬.ril.hsdpa.category : 
+# Cat 28 = 84.4 Mbit/s ro.ril.hsdpa.category=28
+
+#ro.ril.hsupa.category : ro.ril.hsupa.category=9
+
+# ro.ril.enable.dtm : Only set this to 1 if your network allows simultaneous 
+# transfer of Circuit switched (CS) voice and Packet switched 
+# (PS) data over the same radio channel (ARFCN). 
+ro.ril.enable.dtm=1
+
+#ro.ril.hsxpa: 
+#ro.ril.hsxpa=0 â€“ UMTS r99 #ro.ril.hsxpa=1 â€“ HSDPA 
+#ro.ril.hsxpa=2 â€“ HSDPA/HSUPA 
+#ro.ril.hsxpa= 3
+
+ro.ril.htcmaskw1=14449 ro.ril.htcmaskw1.bitmask=4294967295 ro.ril.enable.a53=1 
+ro.ril.hep=1
+
+‪#‎Media‬ Tweaks ro.media.enc.jpeg.quality=100 ro.media.dec.jpeg.memcap=8000000 ro.media.enc.hprof.vid.bps=8000000
+media.stagefright.enable-player=true media.stagefright.enable-meta=true media.stagefright.enable-scan=true media.stagefright.enable-http=true
+st.af.resampler.quality=255
+
+## Gaming tweaks 
+persist.sys.NV_FPSLIMIT=60 
+persist.sys.NV_POWERMODE=1 
+persist.sys.NV_PROFVER=15 
+persist.sys.NV_STEREOCTRL=0 
+persist.sys.NV_STEREOSEPCHG=0 
+persist.sys.NV_STEREOSEP=20 
+
+#TOTORO RAM
+ro.FOREGROUND_APP_ADJ=5
+ro.VISIBLE_APP_ADJ=1
+ro.SECONDARY_SERVER_ADJ=2
+ro.BACKUP_APP_ADJ=2 
+ro.HOME_APP_ADJ=-16
+ro.HIDDEN_APP_MIN_ADJ=7 
+ro.CONTENT_PROVIDER_ADJ=14 
+ro.EMPTY_APP_ADJ=15
+
+#SPEEDEVS TEAM FORKED TWEAKS 
+#SPEED
